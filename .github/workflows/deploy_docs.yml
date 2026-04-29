@@ -3,15 +3,6 @@ name: Deploy Docs
 on:
   push:
     branches: [master]
-    paths:
-      - 'docs_src/**'
-      - 'src/hello_imgui/doc_*.src.md'
-      - 'src/hello_imgui/hello_imgui.h'
-      - 'src/hello_imgui/runner_params.h'
-      - 'src/hello_imgui/hello_imgui_api.md'
-      - 'tools/doc/**'
-      - 'README.src.md'
-      - '.github/workflows/deploy_docs.yml'
   workflow_dispatch:
 
 permissions:
